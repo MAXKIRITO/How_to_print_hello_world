@@ -1,7 +1,6 @@
 from Crypto.Cipher import PKCS1_OAEP
 from Crypto.PublicKey import RSA
 
-# key = RSA.generate(2048)
 privateKey = open('private.pem').read()
 publicKey = open('public.pem').read()
 
